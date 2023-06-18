@@ -30,14 +30,16 @@ The heavy lifting of translating metadata is done by the libm3mf library. This c
 
 ### Support
 
-| Slicer | Layer Swap |
-|--------|------------|
-| Slic3r | ?? |
-| PrusaSlicer | ?? |
-| Cura | ?? |
-| SuperSlicer | ?? |
-| Bambu Studio | ?? |
-| Orca Slicer | ?? |
-| ideaMaker | ?? |
-| Simplify3D | ?? |
-| KISSlicer | ?? |
+| Feature | PrusaSlicer | Cura | SuperSlicer | Bambu Studio | Orca Slicer |
+|---------|-------------|------|-------------|--------------|-------------|
+| Layer Swap/Color Change | ?? | ?? | ?? | ?? | ?? |
+
+Needs investigation
+
+- Slic3r
+- Simplify3D
+- KISSlicer
+
+Won't support
+
+- ideaMaker: Doesn't support saving to 3MF. Only imports geometry from 3MF
